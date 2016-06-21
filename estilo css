@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 900px;
+    margin: auto;
+}
+header{
+    height: 50px;
+    margin: auto;
+    background: blue;
+    margin-bottom: 10px;
+}
+nav{
+    height: 50px;
+    background: white;
+    position: relative;
+}
+nav ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: nome;
+}
+nav ul li{
+    display: inline-block;
+    position: relative;
+    padding: 10px 10px 0px 15px;
+    border: 1px solid black;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: helvetica;
+    size: 16pt;
+    color: black;
+}
+nav ul li a:hover{
+    color: #00FFFF;
+    -moz-box-shadow:0 3px 10px 0 black;
+    text-shadow: 0px 0px 5px black;
+}
+nav ul li a:active{
+    height: 50px;
+    padding: 17px 10px 16px 10px;
+    margin: 0px -10px 0px -10px;
+    box-sizing: border-box;
+}
+section{
+    width: 590px;
+    height: 500px;
+    background: red;
+    float: left;
+    margin-bottom: 10px;
+}
+section article:nth-child(1) {
+    width: 550px;
+    height: 200px;
+    top: 250px;
+    position: relative;
+    color: black;
+    background: white;
+    margin: 0px 0px 0px 20px;
+}
+section article:nth-child(2){
+    width: 550px;
+    height: 200px;
+    top: -170px;
+    position: relative;
+    color: white;
+    background: black;
+    margin: 0px 0px 0px 20px;
+}
+aside { 
+    width: 300px;
+    height: 500px;
+    display: block;
+    float: right;
+    background: pink;
+    margin-bottom: 10px;
+    overflow: scroll;
+}
+footer{
+    height: 50px;
+    background: orange;
+    clear: both;
+}
